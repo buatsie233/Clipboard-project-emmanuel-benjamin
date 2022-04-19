@@ -95,7 +95,23 @@ body {
   white-space: nowrap;
   margin-right: 30px;
   border-radius: 5px;
-  padding: 10px;  
+  padding: 10px; 
+
+  -webkit-transform: scaleX(0.8) scaleY(1.2); 
+  transform: scaleX(0.8) scaleY(1.2);
+  opacity: 0.8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  display: inline-block;
+  box-shadow: 0 6px 12px rgba(114, 194, 131, 0.2);
+  -webkit-border-radius: 50rem;
+    border-radius: 50rem;
+  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  position: relative;
+
   }
   
   .download-for-mac{
@@ -110,6 +126,21 @@ body {
   margin-left: 30px;
   border-radius: 5px;
   padding: 10px;
+
+  -webkit-transform: scaleX(0.8) scaleY(1.2); 
+  transform: scaleX(0.8) scaleY(1.2);
+  opacity: 0.8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  display: inline-block;
+  box-shadow: 0 6px 12px rgba(114, 194, 131, 0.2);
+  -webkit-border-radius: 50rem;
+    border-radius: 50rem;
+  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  position: relative;
   }
   
   .keep-track{
@@ -548,17 +579,20 @@ body {
     margin-bottom: 0.5px;
     margin-left: 24px;
     width: 24px;
+    background-image: url("./resource/images/icon-twitter.svg");
   }
   
   .facebook {
     height: 24px;
     width: 24px;
+    background-image: url("./resource/images/icon-facebook.svg");
   }
   
   .instagram {
     height: 24px;
     margin-left: 24px;
     width: 24px;
+    background-image: url("./resource/images/icon-instagram.svg");
   }
   
   
