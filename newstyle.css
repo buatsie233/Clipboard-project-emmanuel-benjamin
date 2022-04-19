@@ -186,12 +186,14 @@ body {
   
   .desktop {
     align-items: left;
-    display:inline-block;
-    flex-direction: column;
+    display:flex;
+    flex-direction: row;
+
     margin-bottom: 30px;
     margin-left: 126px;
     min-height: 406px;
     width: 350px;
+    position: relative;
   }
   
   .access-clipboard-any {
